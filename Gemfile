@@ -11,9 +11,10 @@ end
 
 group :test do
   gem 'selenium-webdriver'
-  gem 'capybara'
+  gem 'capybara', '2.2.0'
 end
 
+gem 'minitest'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
