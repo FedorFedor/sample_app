@@ -3,6 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails'
+gem 'pg'
 
 group :development, :test do
   gem 'sqlite3'
@@ -27,6 +28,5 @@ group :doc do
 end
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
